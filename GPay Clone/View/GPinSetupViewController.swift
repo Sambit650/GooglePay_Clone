@@ -38,13 +38,39 @@ class GPinSetupViewController: UIViewController,UITextFieldDelegate {
     }
     
     @IBAction func firstEyeButtonPressed(_ sender: Any) {
-        
+        firstTextfield.isSecureTextEntry = !firstTextfield.isSecureTextEntry
+        secondTextfield.isSecureTextEntry = !secondTextfield.isSecureTextEntry
+        thirdTextfield.isSecureTextEntry = !thirdTextfield.isSecureTextEntry
+        fourthTextfield.isSecureTextEntry = !fourthTextfield.isSecureTextEntry
     }
     @IBAction func secondEyeButtonPressed(_ sender: Any) {
-        
+        cFirstTextfield.isSecureTextEntry = !cFirstTextfield.isSecureTextEntry
+        cSecondTextfield.isSecureTextEntry = !cSecondTextfield.isSecureTextEntry
+        cThirdTextfield.isSecureTextEntry = !cThirdTextfield.isSecureTextEntry
+        cFourthTextfield.isSecureTextEntry = !cFourthTextfield.isSecureTextEntry
     }
     @IBAction func continueButtonPressed(_ sender: Any) {
-        
+        if !firstTextfield.text!.isEmpty && !secondTextfield.text!.isEmpty && !thirdTextfield.text!.isEmpty && !fourthTextfield.text!.isEmpty && !cFirstTextfield.text!.isEmpty && !cSecondTextfield.text!.isEmpty && !cThirdTextfield.text!.isEmpty && !cFourthTextfield.text!.isEmpty{
+            let userPin = firstTextfield.text! + secondTextfield.text! + thirdTextfield.text! + fourthTextfield.text!
+            let confirmPin = cFirstTextfield.text! + cSecondTextfield.text! + cThirdTextfield.text! + cFourthTextfield.text!
+            if userPin == confirmPin{
+                
+                print("success")
+                UserDefaults.standard.set(confirmPin, forKey: "userGPin")
+                UserDefaults.standard.set(true, forKey: "isNewUser")
+                
+                let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let PinVC = mainStoryboard.instantiateViewController(withIdentifier: "GPinViewController") as! GPinViewController
+                PinVC.modalPresentationStyle = .fullScreen
+                present(PinVC, animated: true, completion: nil)
+                
+            }else{
+                print("invalid confirm pin")
+            }
+            
+        }else{
+            print("fail")
+        }
     }
     
     func textFieldShouldReturnSingle(_ textField: UITextField , newString : String)

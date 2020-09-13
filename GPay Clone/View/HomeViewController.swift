@@ -18,6 +18,9 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
     @IBOutlet weak var businessCollectionView: UICollectionView!
     @IBOutlet weak var businessExploreBurron: UIButton!
     
+    var peopleListArray = ["sambit","Bhabani","Debashish","RajKishore","Rajesh","Subha"]
+    var bussinessListArray = ["Zomato","Dunzo","Tata Sky","SamTech","Juice Center"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,18 +42,20 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == self.peopleCollectionView{
-           return 5
+            return peopleListArray.count
         }else{
-            return 6
+            return bussinessListArray.count
         }
        }
        
        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == self.peopleCollectionView{
         let peopleCell = peopleCollectionView.dequeueReusableCell(withReuseIdentifier: "PeopleCollectionViewCell", for: indexPath) as! PeopleCollectionViewCell
+            peopleCell.peopleName.text = peopleListArray[indexPath.row]
         return peopleCell
         }else{
             let businessCell = businessCollectionView.dequeueReusableCell(withReuseIdentifier: "BusinessCollectionViewCell", for: indexPath) as! BusinessCollectionViewCell
+            businessCell.businessName.text = bussinessListArray[indexPath.row]
             return businessCell
         }
     }

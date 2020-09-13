@@ -15,8 +15,9 @@ class GPinViewController: UIViewController {
     @IBOutlet weak var secondCheckbox: UIImageView!
     @IBOutlet weak var thirdCheckbox: UIImageView!
     @IBOutlet weak var fourthCheckbox:UIImageView!
+    @IBOutlet weak var forgotButton: UIButton!
     
-    let userGPin = "1234"
+    var userGPin = ""
     var enteredPin = ""
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,10 +27,13 @@ class GPinViewController: UIViewController {
     
     func setUI(){
         resultLabel.isHidden = true
+        forgotButton.isHidden = true
+        userGPin = UserDefaults.standard.string(forKey: "userGPin")!
     }
     
     @IBAction func pinButtonPressed(_ sender: UIButton) {
         if enteredPin.count <= 3{
+            resultLabel.isHidden = true
             enteredPin = enteredPin + String(sender.tag)
             print(enteredPin)
             
@@ -99,5 +103,14 @@ class GPinViewController: UIViewController {
     @IBAction func exitButtonPressed(_ sender: Any) {
         exit(0);
     }
+    @IBAction func threeDotButtonPressed(_ sender: Any) {
+        forgotButton.isHidden = !forgotButton.isHidden
+    }
     
+    @IBAction func forgotPinButtonPressed(_ sender: Any) {
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let setPinVC = mainStoryboard.instantiateViewController(withIdentifier: "GPinSetupViewController") as! GPinSetupViewController
+        setPinVC.modalPresentationStyle = .fullScreen
+        present(setPinVC, animated: true, completion: nil)
+    }
 }
