@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E2B179F250CA12200DBF23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B179E250CA12200DBF23A /* AppDelegate.swift */; };
+		8E2B17A1250CA12200DBF23A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B17A0250CA12200DBF23A /* SceneDelegate.swift */; };
+		8E2B17A6250CA12200DBF23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2B17A4250CA12200DBF23A /* Main.storyboard */; };
+		8E2B17A8250CA12300DBF23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2B17A7250CA12300DBF23A /* Assets.xcassets */; };
+		8E2B17AB250CA12300DBF23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2B17A9250CA12300DBF23A /* LaunchScreen.storyboard */; };
+		8E2B17B3250CA1EE00DBF23A /* GPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B17B2250CA1EE00DBF23A /* GPinViewController.swift */; };
+		8E2B17B5250CB9EE00DBF23A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B17B4250CB9EE00DBF23A /* HomeViewController.swift */; };
+		8E2B17B7250CC32700DBF23A /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B17B6250CC32700DBF23A /* PeopleCollectionViewCell.swift */; };
+		8E2B17B9250CD8D900DBF23A /* BusinessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B17B8250CD8D900DBF23A /* BusinessCollectionViewCell.swift */; };
+		8E45FFA5250E0628007E9E78 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45FFA4250E0628007E9E78 /* SplashViewController.swift */; };
+		8E45FFA8250E0D2A007E9E78 /* GPinSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45FFA7250E0D2A007E9E78 /* GPinSetupViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E2B179B250CA12200DBF23A /* GPay Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPay Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2B179E250CA12200DBF23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E2B17A0250CA12200DBF23A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E2B17A5250CA12200DBF23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E2B17A7250CA12300DBF23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E2B17AA250CA12300DBF23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E2B17AC250CA12300DBF23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2B17B2250CA1EE00DBF23A /* GPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPinViewController.swift; sourceTree = "<group>"; };
+		8E2B17B4250CB9EE00DBF23A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8E2B17B6250CC32700DBF23A /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E2B17B8250CD8D900DBF23A /* BusinessCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E45FFA4250E0628007E9E78 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8E45FFA7250E0D2A007E9E78 /* GPinSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPinSetupViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2B1798250CA12200DBF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E2B1792250CA12100DBF23A = {
+			isa = PBXGroup;
+			children = (
+				8E2B179D250CA12200DBF23A /* GPay Clone */,
+				8E2B179C250CA12200DBF23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2B179C250CA12200DBF23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2B179B250CA12200DBF23A /* GPay Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E2B179D250CA12200DBF23A /* GPay Clone */ = {
+			isa = PBXGroup;
+			children = (
+				8E2B179E250CA12200DBF23A /* AppDelegate.swift */,
+				8E2B17A0250CA12200DBF23A /* SceneDelegate.swift */,
+				8E45FFA6250E08DE007E9E78 /* View */,
+				8E2B17A4250CA12200DBF23A /* Main.storyboard */,
+				8E2B17A7250CA12300DBF23A /* Assets.xcassets */,
+				8E2B17A9250CA12300DBF23A /* LaunchScreen.storyboard */,
+				8E2B17AC250CA12300DBF23A /* Info.plist */,
+			);
+			path = "GPay Clone";
+			sourceTree = "<group>";
+		};
+		8E45FFA6250E08DE007E9E78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E45FFA7250E0D2A007E9E78 /* GPinSetupViewController.swift */,
+				8E2B17B2250CA1EE00DBF23A /* GPinViewController.swift */,
+				8E45FFA4250E0628007E9E78 /* SplashViewController.swift */,
+				8E2B17B4250CB9EE00DBF23A /* HomeViewController.swift */,
+				8E2B17B6250CC32700DBF23A /* PeopleCollectionViewCell.swift */,
+				8E2B17B8250CD8D900DBF23A /* BusinessCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E2B179A250CA12200DBF23A /* GPay Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2B17AF250CA12300DBF23A /* Build configuration list for PBXNativeTarget "GPay Clone" */;
+			buildPhases = (
+				8E2B1797250CA12200DBF23A /* Sources */,
+				8E2B1798250CA12200DBF23A /* Frameworks */,
+				8E2B1799250CA12200DBF23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPay Clone";
+			productName = "GPay Clone";
+			productReference = 8E2B179B250CA12200DBF23A /* GPay Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E2B1793250CA12100DBF23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = sambit;
+				TargetAttributes = {
+					8E2B179A250CA12200DBF23A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E2B1796250CA12100DBF23A /* Build configuration list for PBXProject "GPay Clone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E2B1792250CA12100DBF23A;
+			productRefGroup = 8E2B179C250CA12200DBF23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2B179A250CA12200DBF23A /* GPay Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E2B1799250CA12200DBF23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2B17AB250CA12300DBF23A /* LaunchScreen.storyboard in Resources */,
+				8E2B17A8250CA12300DBF23A /* Assets.xcassets in Resources */,
+				8E2B17A6250CA12200DBF23A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E2B1797250CA12200DBF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2B17B3250CA1EE00DBF23A /* GPinViewController.swift in Sources */,
+				8E2B179F250CA12200DBF23A /* AppDelegate.swift in Sources */,
+				8E2B17B7250CC32700DBF23A /* PeopleCollectionViewCell.swift in Sources */,
+				8E2B17A1250CA12200DBF23A /* SceneDelegate.swift in Sources */,
+				8E2B17B9250CD8D900DBF23A /* BusinessCollectionViewCell.swift in Sources */,
+				8E45FFA5250E0628007E9E78 /* SplashViewController.swift in Sources */,
+				8E45FFA8250E0D2A007E9E78 /* GPinSetupViewController.swift in Sources */,
+				8E2B17B5250CB9EE00DBF23A /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E2B17A4250CA12200DBF23A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E2B17A5250CA12200DBF23A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E2B17A9250CA12300DBF23A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E2B17AA250CA12300DBF23A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E2B17AD250CA12300DBF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E2B17AE250CA12300DBF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E2B17B0250CA12300DBF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GPay Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myigit.info.GPay-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E2B17B1250CA12300DBF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GPay Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "myigit.info.GPay-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E2B1796250CA12100DBF23A /* Build configuration list for PBXProject "GPay Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2B17AD250CA12300DBF23A /* Debug */,
+				8E2B17AE250CA12300DBF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2B17AF250CA12300DBF23A /* Build configuration list for PBXNativeTarget "GPay Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2B17B0250CA12300DBF23A /* Debug */,
+				8E2B17B1250CA12300DBF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E2B1793250CA12100DBF23A /* Project object */;
+}
